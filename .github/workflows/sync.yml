@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 0:00 am
+    - cron: '0 17 * * *' # 1:00 am UTC+8
   workflow_dispatch:
 
 jobs:
