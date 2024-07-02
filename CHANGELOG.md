@@ -2,6 +2,56 @@
 
 # Changelog
 
+### [Version 1.2.4](https://github.com/lobehub/lobe-chat/compare/v1.2.3...v1.2.4)
+
+<sup>Released on **2024-07-02**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update ProviderAvatar for Baichuan & Stepfun.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update ProviderAvatar for Baichuan & Stepfun, closes [#3112](https://github.com/lobehub/lobe-chat/issues/3112) ([ae5987a](https://github.com/lobehub/lobe-chat/commit/ae5987a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.2.3](https://github.com/lobehub/lobe-chat/compare/v1.2.2...v1.2.3)
+
+<sup>Released on **2024-07-01**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the portal implement.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the portal implement, closes [#3110](https://github.com/lobehub/lobe-chat/issues/3110) ([53fb292](https://github.com/lobehub/lobe-chat/commit/53fb292))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.2.2](https://github.com/lobehub/lobe-chat/compare/v1.2.1...v1.2.2)
 
 <sup>Released on **2024-07-01**</sup>
