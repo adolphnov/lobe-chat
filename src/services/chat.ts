@@ -134,12 +134,14 @@ export function initializeWithClientStore(provider: string, payload: any) {
     case ModelProvider.Qwen: {
       break;
     }
+
     case ModelProvider.Anthropic: {
       providerOptions = {
         baseURL: providerAuthPayload?.endpoint,
       };
       break;
     }
+
     case ModelProvider.Mistral: {
       break;
     }
@@ -317,7 +319,9 @@ class ChatService {
       onFinish: options?.onFinish,
       onMessageHandle: options?.onMessageHandle,
       signal,
-      smoothing: providerConfig?.smoothing,
+      // use smoothing when enable client fetch
+      // https://github.com/lobehub/lobe-chat/issues/3800
+      smoothing: providerConfig?.smoothing || enableFetchOnClient,
     });
   };
 
